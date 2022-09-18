@@ -1,0 +1,141 @@
+/* SLIDER */
+.slider-section {
+  margin-bottom: 140px;
+}
+
+.title-flex-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.slider-titles-bllock {
+  width: 100%;
+  max-width: 1200px;
+  text-align: center;
+  margin-bottom: 72px;
+}
+
+.slider-title-up {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 40px;    
+  letter-spacing: 2.1px;
+  text-transform: uppercase;  
+  color: #244886;
+  margin-bottom: 0;
+}
+
+.slider-title-down {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 55px;
+  letter-spacing: -1.5px;
+  color: #0F2137;
+  margin-bottom: 0;
+}
+
+.container-slider {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.slider-wrapper {
+  width: 100%;
+  max-width: 1200px;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 70px; 
+  position: relative;
+  left: 0px;
+  transition: all ease 1500ms;
+}
+
+.slider-title {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 33px;    
+  color: #343D48;
+  margin-bottom: 20px;
+}
+
+.slider-paragraph {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 38px; 
+  color: #343D48;
+  margin-bottom: 31px;
+} 
+
+.name {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: -0.4px;  
+  color: #0F2137;  
+}
+
+.email {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: -0.375px;  
+  color: #25A0FF;
+}
+
+.flex-container-photo-text {
+  display: flex;
+  column-gap: 19px;
+  align-items: center;
+}
+
+
+.arrows-block {
+  display: flex;
+  justify-content: space-around;
+  max-width: 80px;
+  margin: 50px auto 0;
+}
+
+.slider-blocks {
+  width: 350px;
+  flex-shrink: 0;
+  
+}
+
+.left-arrow:hover,
+.right-arrow:hover {
+  cursor: pointer;
+  fill: #a78847;
+}
+
+/* Media - @ */
+
+@media screen and (max-width: 767px) {
+
+  .slider-section {
+    margin-bottom: 100px;
+  }
+  
+  .slider-blocks {
+    margin-left: 5px;
+  }    
+}
+
+
+
